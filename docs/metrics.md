@@ -68,7 +68,7 @@
 
 v4 将 `hallucination_risk_count=13` 作为历史基线，后续每轮优化都应追踪该指标是否下降。
 
-## 7. v4 质量门禁
+## 7.质量门禁
 
 - 改写建议必须绑定 evidence_id，建议证据覆盖率目标接近 100%。
 - 校验失败或 LLM JSON 输出解析失败时，必须降级为规则模板或重新生成，不能让主流程报错。
@@ -97,12 +97,6 @@ cd frontend
 npx tsc --noEmit
 npm run build
 ```
-
-安全扫描重点：
-
-- 文档、测试输出和前端 bundle 中不能出现真实 API Key。
-- `.env` 不进入 git。
-- `/health` 只展示脱敏后的运行状态。
 
 ## 9. 下一步评测计划
 
