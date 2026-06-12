@@ -178,7 +178,7 @@ npm run build
 
 ## pgvector 可选配置
 
-默认使用 SQLite，便于本地演示。需要正式向量检索时可启动 PostgreSQL + pgvector：
+默认使用 SQLite，需要正式向量检索时可启动 PostgreSQL + pgvector：
 
 ```bash
 docker compose -f docker-compose.pgvector.yml up -d
@@ -214,18 +214,7 @@ EMBEDDING_DIMENSION=512
 └── docker-compose.pgvector.yml
 ```
 
-## 简历项目描述
+## 项目描述
 
-可写入简历：
+> AI 求职助手 Agent，基于简历与岗位 JD 完成岗位匹配、RAG 证据检索、结构化简历改写和模拟面试反馈。后端使用 FastAPI + Pydantic + SQLAlchemy，前端使用 Next.js + TypeScript；接入 OpenAI-compatible LLM，并支持本地 BGE Embedding、SQLite/pgvector 检索、Agent Trace 和 20 组脱敏样例评测，形成可解释、可回退、可评测的 AI 应用闭环。
 
-> 设计并实现 AI 求职助手 Agent，基于简历与岗位 JD 完成岗位匹配、RAG 证据检索、结构化简历改写和模拟面试反馈。后端使用 FastAPI + Pydantic + SQLAlchemy，前端使用 Next.js + TypeScript；接入 OpenAI-compatible LLM，并支持本地 BGE Embedding、SQLite/pgvector 检索、Agent Trace 和 20 组脱敏样例评测，形成可解释、可回退、可评测的 AI 应用闭环。
-
-## 安全说明
-
-- `.env`、数据库、模型文件和缓存目录不会提交到 Git。
-- README、测试输出和前端代码不应包含真实 API Key。
-- 如果 API Key 曾出现在聊天、截图或日志中，请在服务商后台轮换新 Key。
-
-## License
-
-MIT License
