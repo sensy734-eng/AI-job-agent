@@ -63,16 +63,7 @@ pip install -r requirements.txt
 copy .env.example .env
 uvicorn app.main:app --reload --port 8000
 ```
-
-`.env` 中可配置 OpenAI-compatible LLM：
-
-```env
-LLM_PROVIDER=openai
-OPENAI_BASE_URL=https://your-chat-endpoint/v1
-OPENAI_API_KEY=your-api-key
-OPENAI_MODEL=gpt-4.1-mini
-```
-
+env中配置api key
 没有 API Key 时，系统会使用离线规则兜底，仍可跑通主流程。
 
 ### 2. 本地 Embedding
@@ -213,8 +204,4 @@ EMBEDDING_DIMENSION=512
 │   └── lib
 └── docker-compose.pgvector.yml
 ```
-
-## 项目描述
-
-> AI 求职助手 Agent，基于简历与岗位 JD 完成岗位匹配、RAG 证据检索、结构化简历改写和模拟面试反馈。后端使用 FastAPI + Pydantic + SQLAlchemy，前端使用 Next.js + TypeScript；接入 OpenAI-compatible LLM，并支持本地 BGE Embedding、SQLite/pgvector 检索、Agent Trace 和 20 组脱敏样例评测，形成可解释、可回退、可评测的 AI 应用闭环。
 
