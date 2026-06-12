@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ai_app_high",
+    "expected_band": "high",
+    "expected_gaps": ["项目", "指标"],
+    "forbidden_terms": ["腾讯", "阿里", "字节", "100%"],
+    "resume_text": "李明\n软件工程本科大三，求职意向：AI 应用开发实习生\n技能：Python、FastAPI、React、SQL、RAG、LLM、Git\n项目经历：AI 求职助手 Agent，负责简历解析、JD 匹配、RAG 检索、评分策略和 Next.js 原型。校园问答系统，基于向量检索和大模型回答实现课程资料问答，设计文档切分、召回和答案引用。",
+    "jd_text": "岗位：AI 应用开发实习生\n职责：参与大模型应用、RAG 检索和 Agent 工作流开发；使用 Python/FastAPI 设计后端 API，并与前端联调。\n要求：计算机或软件工程相关专业，熟悉 Python、SQL、RAG、LLM，有 React 或 Next.js 经验加分。"
+  },
+  {
+    "id": "backend_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["RAG", "Embedding"],
+    "forbidden_terms": ["大模型上线", "千万用户"],
+    "resume_text": "王同学\n计算机科学本科大三\n技能：Java、Spring Boot、MySQL、Docker、Git、Python 基础\n项目经历：校园二手交易平台，负责商品发布、订单接口、MySQL 表设计和 Docker 部署。课程数据分析作业，使用 Python 和 Pandas 做成绩分布统计。",
+    "jd_text": "岗位：AI 后端开发实习生\n职责：参与 AI 应用 API 开发、数据存储和检索服务建设。\n要求：熟悉 Python、FastAPI、SQL，了解 RAG、Embedding、向量数据库，有后端项目经验。"
+  },
+  {
+    "id": "low_match",
+    "expected_band": "low",
+    "expected_gaps": ["Python", "项目"],
+    "forbidden_terms": ["Python", "FastAPI"],
+    "resume_text": "赵同学\n市场营销本科大三\n技能：Excel、PPT、活动策划、用户调研\n经历：社团活动策划，负责宣传文案、报名表统计和现场协调。",
+    "jd_text": "岗位：大模型应用开发实习生\n职责：开发 RAG 检索、Agent 工作流和后端 API。\n要求：熟悉 Python、FastAPI、SQL、LLM、Embedding，有 AI 项目经验。"
+  },
+  {
+    "id": "data_ai_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["API", "后端"],
+    "forbidden_terms": ["线上部署"],
+    "resume_text": "陈同学\n软件工程本科大三\n技能：Python、Pandas、Numpy、SQL、数据可视化、机器学习\n项目经历：招聘数据分析系统，清洗岗位数据并分析技能关键词；课程机器学习实验，使用 sklearn 做文本分类。",
+    "jd_text": "岗位：AI 应用开发实习生\n要求：熟悉 Python、FastAPI、RAG、LLM，能开发 API 并完成前后端联调。"
+  },
+  {
+    "id": "frontend_ai_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["Python", "RAG"],
+    "forbidden_terms": ["后端主程"],
+    "resume_text": "刘同学\n计算机本科大三\n技能：React、Next.js、TypeScript、Tailwind、Git\n项目经历：AI 工具工作台前端，实现表单输入、结果卡片、历史记录和状态管理。",
+    "jd_text": "岗位：大模型应用全栈实习生\n职责：参与 RAG 产品原型、前端页面和 Python API 开发。\n要求：React、Python、FastAPI、LLM 应用经验。"
+  },
+  {
+    "id": "algorithm_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["工程", "API"],
+    "forbidden_terms": ["工业级"],
+    "resume_text": "周同学\n人工智能本科大三\n技能：Python、PyTorch、机器学习、NLP、数据处理\n项目经历：文本情感分类模型，负责数据预处理、模型训练和 F1 指标评估。",
+    "jd_text": "岗位：AI 应用工程实习生\n要求：熟悉 LLM、RAG、FastAPI、SQL，有工程落地和接口开发经验。"
+  },
+  {
+    "id": "java_backend_low_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["Python", "LLM"],
+    "forbidden_terms": ["RAG 项目"],
+    "resume_text": "吴同学\n软件工程本科大三\n技能：Java、Spring Boot、Redis、MySQL、Docker\n项目经历：图书管理系统，负责用户、借阅、库存模块和接口测试。",
+    "jd_text": "岗位：AI 平台后端实习生\n要求：后端基础扎实，了解 Python、LLM、RAG、向量数据库优先。"
+  },
+  {
+    "id": "nlp_high",
+    "expected_band": "high",
+    "expected_gaps": ["FastAPI", "部署"],
+    "forbidden_terms": ["生产环境"],
+    "resume_text": "何同学\n计算机本科大三\n技能：Python、NLP、RAG、Embedding、SQL、FastAPI\n项目经历：论文问答助手，完成 PDF 解析、文本切分、向量召回、答案引用和 FastAPI 接口。",
+    "jd_text": "岗位：RAG 应用开发实习生\n职责：建设文档问答、检索增强生成和 API 服务。\n要求：Python、Embedding、RAG、FastAPI、SQL。"
+  },
+  {
+    "id": "ops_low",
+    "expected_band": "low",
+    "expected_gaps": ["AI", "开发"],
+    "forbidden_terms": ["LLM"],
+    "resume_text": "孙同学\n信息管理本科大三\n技能：Linux 基础、Excel、流程管理\n经历：实验室设备维护，负责设备登记和文档整理。",
+    "jd_text": "岗位：AI Agent 开发实习生\n要求：Python、FastAPI、RAG、LLM、React，有完整项目经验。"
+  },
+  {
+    "id": "fullstack_high",
+    "expected_band": "high",
+    "expected_gaps": ["指标"],
+    "forbidden_terms": ["商业化"],
+    "resume_text": "郑同学\n软件工程本科大三\n技能：Python、FastAPI、React、Next.js、SQL、RAG、LLM、Docker\n项目经历：智能简历助手，完成前端工作台、后端 API、RAG 检索、提示词和评测脚本。",
+    "jd_text": "岗位：AI 全栈实习生\n职责：开发大模型应用原型、RAG 检索、前端交互和后端 API。\n要求：Python、React、FastAPI、LLM、SQL。"
+  },
+  {
+    "id": "qa_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["开发", "RAG"],
+    "forbidden_terms": ["主导开发"],
+    "resume_text": "唐同学\n软件工程本科大三\n技能：Python、接口测试、Postman、SQL、自动化测试\n项目经历：Web 自动化测试平台，编写接口测试用例和测试报告。",
+    "jd_text": "岗位：AI 应用测试开发实习生\n要求：Python、SQL、API 测试，了解 LLM 应用和 RAG 流程。"
+  },
+  {
+    "id": "product_low_mid",
+    "expected_band": "low",
+    "expected_gaps": ["编程", "项目"],
+    "forbidden_terms": ["FastAPI"],
+    "resume_text": "马同学\n工业设计本科大三\n技能：Axure、Figma、用户访谈、竞品分析\n经历：校园 App 原型设计，负责需求访谈和交互稿。",
+    "jd_text": "岗位：AI 应用开发实习生\n要求：Python、FastAPI、RAG、LLM、React，有代码项目经验。"
+  },
+  {
+    "id": "sql_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["LLM", "RAG"],
+    "forbidden_terms": ["大模型"],
+    "resume_text": "黄同学\n计算机本科大三\n技能：SQL、PostgreSQL、Python、数据建模、Git\n项目经历：实习考勤分析系统，负责数据库建模、查询优化和 Python 数据处理脚本。",
+    "jd_text": "岗位：AI 数据应用实习生\n要求：SQL、Python、Embedding、RAG，能处理结构化和非结构化数据。"
+  },
+  {
+    "id": "mobile_low",
+    "expected_band": "low",
+    "expected_gaps": ["后端", "AI"],
+    "forbidden_terms": ["RAG"],
+    "resume_text": "林同学\n软件工程本科大三\n技能：Flutter、Dart、移动端 UI、Firebase\n项目经历：校园日程 App，负责移动端页面和本地通知。",
+    "jd_text": "岗位：AI 后端实习生\n要求：Python、FastAPI、SQL、RAG、LLM、Docker。"
+  },
+  {
+    "id": "research_high_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["产品", "前端"],
+    "forbidden_terms": ["Next.js"],
+    "resume_text": "高同学\n人工智能本科大三\n技能：Python、PyTorch、NLP、Transformer、实验评估\n项目经历：命名实体识别实验，完成数据标注、模型训练和误差分析。",
+    "jd_text": "岗位：大模型应用实习生\n要求：LLM、RAG、Python，能做产品原型和前后端开发。"
+  },
+  {
+    "id": "devops_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["LLM", "简历证据"],
+    "forbidden_terms": ["模型训练"],
+    "resume_text": "许同学\n计算机本科大三\n技能：Docker、Linux、Python、GitHub Actions、PostgreSQL\n项目经历：课程项目自动部署流水线，负责 Dockerfile、CI 配置和日志排查。",
+    "jd_text": "岗位：AI 工程化实习生\n要求：Python、Docker、PostgreSQL，了解 LLM 应用部署和 RAG 服务。"
+  },
+  {
+    "id": "security_low",
+    "expected_band": "low",
+    "expected_gaps": ["RAG", "应用开发"],
+    "forbidden_terms": ["FastAPI"],
+    "resume_text": "宋同学\n网络空间安全本科大三\n技能：Web 安全、Burp Suite、Python 脚本、Linux\n项目经历：SQL 注入实验和 XSS 漏洞复现。",
+    "jd_text": "岗位：AI Agent 应用开发实习生\n要求：FastAPI、React、RAG、LLM、向量数据库。"
+  },
+  {
+    "id": "course_project_mid",
+    "expected_band": "medium",
+    "expected_gaps": ["真实用户", "部署"],
+    "forbidden_terms": ["上线"],
+    "resume_text": "钱同学\n软件工程本科大三\n技能：Python、Flask、SQLite、React、Git\n项目经历：课程问答小助手，支持问题录入、关键词检索和回答展示。",
+    "jd_text": "岗位：AI 应用开发实习生\n要求：Python Web、React、RAG、LLM、SQL，有完整项目闭环。"
+  },
+  {
+    "id": "strong_backend_high",
+    "expected_band": "high",
+    "expected_gaps": ["Embedding"],
+    "forbidden_terms": ["千万级"],
+    "resume_text": "白同学\n软件工程本科大三\n技能：Python、FastAPI、PostgreSQL、Redis、Docker、RAG、LLM\n项目经历：知识库问答后端，负责文档入库、检索 API、回答生成接口和 Docker 部署。",
+    "jd_text": "岗位：RAG 后端开发实习生\n要求：Python、FastAPI、PostgreSQL、Docker、RAG、LLM，熟悉向量检索优先。"
+  },
+  {
+    "id": "ux_low",
+    "expected_band": "low",
+    "expected_gaps": ["代码", "Python"],
+    "forbidden_terms": ["Python"],
+    "resume_text": "罗同学\n数字媒体本科大三\n技能：Figma、视觉设计、用户体验、动效设计\n项目经历：智能学习 App 界面重设计，负责视觉规范和交互流程。",
+    "jd_text": "岗位：AI 全栈开发实习生\n要求：Python、FastAPI、React、RAG、LLM、SQL。"
+  }
+]

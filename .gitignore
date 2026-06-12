@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+.env
+*.log
+
+# Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+frontend/tsconfig.tsbuildinfo
+
+# Local data
+*.db
+uploads/
+storage/
+backend/models/
+backend/.hf-cache/
+backend/uvicorn-*.log
+
+# OS
+.DS_Store
+Thumbs.db
